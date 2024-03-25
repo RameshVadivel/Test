@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T15:40:54Z" name="Default suite" finished-at="2024-02-29T15:41:18Z" duration-ms="24127">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T15:40:54Z" name="Default test" finished-at="2024-02-29T15:41:18Z" duration-ms="24127">
+      <class name="testNg.dependsOnMethod">
+        <test-method is-config="true" signature="windowOpen()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:40:54Z" name="windowOpen" finished-at="2024-02-29T15:41:00Z" duration-ms="6692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowOpen -->
+        <test-method signature="pagelogin()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:41:00Z" name="pagelogin" finished-at="2024-02-29T15:41:03Z" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagelogin -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:41:03Z" name="closewindow" finished-at="2024-02-29T15:41:03Z" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="windowOpen()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:41:03Z" name="windowOpen" finished-at="2024-02-29T15:41:09Z" duration-ms="5997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowOpen -->
+        <test-method signature="pageenter()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:41:09Z" name="pageenter" finished-at="2024-02-29T15:41:11Z" depends-on-methods="testNg.dependsOnMethod.pagelogin" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageenter -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:41:11Z" name="closewindow" finished-at="2024-02-29T15:41:11Z" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="windowOpen()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:41:11Z" name="windowOpen" finished-at="2024-02-29T15:41:17Z" duration-ms="6425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowOpen -->
+        <test-method signature="testcase()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:41:17Z" name="testcase" finished-at="2024-02-29T15:41:17Z" depends-on-methods="testNg.dependsOnMethod.pagelogin" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:testNg.dependsOnMethod@b4711e2]" started-at="2024-02-29T15:41:17Z" name="closewindow" finished-at="2024-02-29T15:41:18Z" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- testNg.dependsOnMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
