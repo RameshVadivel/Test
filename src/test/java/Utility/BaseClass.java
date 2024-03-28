@@ -37,7 +37,7 @@ public class BaseClass {
 		WebDriverManager.edgedriver().setup();
 		driver = new EdgeDriver();
 		//driver.get("https://tutorialsninja.com/demo/");
-		driver.get("https://demo.automationtesting.in/SignIn.html");
+		driver.get("https://demo.automationtesting.in/Register.html");
 		//driver.get("https://www.amazon.in/");
 		//driver.get("https://demo.automationtesting.in/Alerts.html");
 		driver.manage().window().maximize();

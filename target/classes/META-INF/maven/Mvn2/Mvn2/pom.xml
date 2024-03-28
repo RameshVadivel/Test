@@ -9,11 +9,10 @@
 
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <suiteXmlFile>testcasesolve.xml</suiteXmlFile>
   </properties>
   
   <build>
-	  
-
   <plugins>
    
       <plugin>
@@ -22,7 +21,7 @@
         <version>3.2.5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testcasesolve.xml</suiteXmlFile>
+            <suiteXmlFile>$(suiteXmlFile)</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
